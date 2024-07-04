@@ -44,3 +44,5 @@ data
 docs
 temp_audio
 uploads
+
+.streamlit
