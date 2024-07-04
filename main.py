@@ -4,7 +4,7 @@ import json
 import tempfile
 import requests
 import speech_recognition as sr
-from pydub import AudioSegment
+# from pydub import AudioSegment
 import pandas as pd
 
 # Import functions from other files
