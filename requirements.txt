@@ -3,8 +3,8 @@ python-dotenv==1.0.0
 numpy==1.26.4
 pandas==1.5.3
 requests==2.31.0
-gradio_client
-moviepy
+gradio_client==1.0.2
+moviepy==1.0.3
 
 # SpeechRecognition==3.10.0
 # pydub==0.25.1
