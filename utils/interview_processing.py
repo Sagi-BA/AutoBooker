@@ -40,14 +40,14 @@ def process_interviews(file_path, styles, character_type, chunk_length):
     
     try:
         with st.spinner('Transcribing...'):          
-            speech_text = speech_to_text(file_path)
-            print(speech_text)
+            translation = speech_to_text(file_path)
+            print(translation)
             st.info("הקובץ תומלל מקול לטקסט STT!")
 
-        with st.spinner('Groq LLM...'):
-            translation = groq_translate(speech_text, 'he', 'he') 
-            print(translation)
-            st.info("מעבד את הקובץ בעזרת מודל שפה LLM!")
+        # with st.spinner('Groq LLM...'):
+        #     translation = groq_translate(speech_text, 'he', 'he') 
+        #     print(translation)
+        #     st.info("מעבד את הקובץ בעזרת מודל שפה LLM!")
         
         st.success("עיבוד הראיונות הושלם בהצלחה!")
 
