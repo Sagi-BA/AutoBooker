@@ -50,7 +50,12 @@ def main():
                         character_type
                     )
                     st.session_state['edited_texts'] = edited_texts
-                    st.subheader('הטקסט שתומלל הוא: ' + str(edited_texts))
+                    for transcription in edited_texts.items():                        
+                        st.subheader(transcription)
+                        st.divider()
+                        
+
+                    # st.subheader('הטקסט שתומלל הוא: ' + str(edited_texts))
 
     elif choice == "יצירת ספר":
         if 'edited_texts' not in st.session_state:

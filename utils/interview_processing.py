@@ -27,8 +27,7 @@ def process_interviews(audio_file_paths, styles, character_type):
 
         edited_texts = {}
         for file_path, transcription in transcriptions.items():
-            edited_texts[file_path] = [edit_text(chunk, styles[character_type], character_type) for chunk in transcription]
-            st.divider() 
+            edited_texts[file_path] = [edit_text(chunk, styles[character_type], character_type) for chunk in transcription]            
 
         st.success("עיבוד הראיונות הושלם בהצלחה!")
         return edited_texts

@@ -40,8 +40,7 @@ writing_styles.json
 docs
 *.code-workspace
 audio_test_books
-data
-docs
+
 temp_audio
 uploads
 
