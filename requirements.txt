@@ -1,0 +1,10 @@
+streamlit==1.24.0
+requests==2.31.0
+SpeechRecognition==3.10.0
+pydub==0.25.1
+pandas==1.5.3
+python-dotenv==1.0.0
+numpy==1.26.4
+groq
+
+faster-whisper #for STT
