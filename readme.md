@@ -2,6 +2,8 @@
 
 # 👀 AutoBooker: מערכת אוטומטית ליצירת ספרים מראיונות
 
+Demo url = https://autobooker.streamlit.app/
+
 AutoBooker היא מערכת המאפשרת יצירה אוטומטית של ספרים מראיונות מוקלטים. המערכת מתמללת ראיונות, מעבדת את הטקסט לפי סגנונות כתיבה מוגדרים, ומארגנת את התוכן לספר קוהרנטי.
 
 [![Support](https://img.shields.io/badge/linktree-white?style=for-the-badge&logo=linktree&logoColor=43E55E)](https://linktr.ee/sagib?lt_utm_source=lt_share_link#373198503)
